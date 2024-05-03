@@ -35,15 +35,20 @@
             padding: 20px;
             margin: 20px;
             background-color: #fff;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
             text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -60,9 +65,29 @@
     <section>
         <h2>Welcome to Your Website</h2>
         <p>This is a simple HTML template for your website. You can customize it as per your needs.</p>
+        <button onclick="downloadRCode()">Download Segregation Index R Code</button>
+        <button onclick="runRCode()">Run Segregation Index R Code</button>
+        <button onclick="uploadData()">Upload and Download Data</button>
     </section>
     <footer>
         <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
+
+    <script>
+        function downloadRCode() {
+            // Add your download code here
+            alert("Downloading Segregation Index R Code...");
+        }
+
+        function runRCode() {
+            // Add your R code execution code here
+            alert("Running Segregation Index R Code...");
+        }
+
+        function uploadData() {
+            // Add your data upload/download code here
+            alert("Uploading and Downloading Data...");
+        }
+    </script>
 </body>
 </html>
